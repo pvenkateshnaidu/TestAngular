@@ -7,10 +7,14 @@ import { HelloComponent } from './hello.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
+import { CategoryComponent } from './category/category.component';
+import { HttpModule } from '@angular/http';
 
+import { AppRoutingModule } from './app.routing.module';
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent, FooterComponent, LoginComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, FooterComponent, LoginComponent, HomeComponent, CategoryComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
